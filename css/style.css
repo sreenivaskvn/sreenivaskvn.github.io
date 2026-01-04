@@ -83,6 +83,22 @@ nav{
 	font-style: italic;
 }
 
+.scrollable{
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  height: 150px;
+  overflow: scroll;
+}
+
+.news-list{
+  list-style-type: circle;
+}
+
+.date{
+  color: #2362a1;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 750px) {
   nav{
   	height: 12vw;
